@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import { useEffect, useState } from 'react';
 import './App.css';
 
 function App() {
+  const [flightNumber, setFlight]  = useState(0);
+  
+  async function getAPI(){
+    let response = await fetch('https://api.spacexdata.com/v4/launches/latest');
+    let json = await response.json();
+    console.log(json.flight_number);
+    setFlight(json.flight_number);
+  }
+
+  useEffect(() => {
+   getAPI(); 
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Flight Number: {flightNumber}</h1>
     </div>
   );
 }

@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# TODO
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ - [*] Setup inital react app
+ - [*] Find launch/flight api (https://github.com/r-spacex/SpaceX-API)
+ - [*] Find a cool vertical timeline (https://stephane-monnot.github.io/react-vertical-timeline/#/)
+ - [*] Connect to api
+ - [] Add the timeline
+ - [] Add api to the timeline
+ - [] Make it look pretty 💅💅💅💅
+ - [] Launch on surge.sh.
 
 ## Available Scripts
 
