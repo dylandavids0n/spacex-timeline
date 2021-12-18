@@ -1,13 +1,13 @@
 # TODO
 
- - [*] Setup inital react app
- - [*] Find launch/flight api (https://github.com/r-spacex/SpaceX-API)
- - [*] Find a cool vertical timeline (https://stephane-monnot.github.io/react-vertical-timeline/#/)
- - [*] Connect to api
- - [] Add the timeline
- - [] Add api to the timeline
- - [] Make it look pretty 💅💅💅💅
- - [] Launch on surge.sh.
+ - [ * ] Setup inital react app
+ - [ * ] Find launch/flight api (https://github.com/r-spacex/SpaceX-API)
+ - [ * ] Find a cool vertical timeline (https://stephane-monnot.github.io/react-vertical-timeline/#/)
+ - [ * ] Connect to api
+ - [ ] Add the timeline
+ - [ ] Add api to the timeline
+ - [ ] Make it look pretty 💅💅💅💅
+ - [ ] Launch on surge.sh.
 
 ## Available Scripts
 
